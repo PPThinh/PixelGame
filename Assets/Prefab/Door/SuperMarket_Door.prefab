@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2530624435863080968}
   - component: {fileID: 6804466983750803100}
   - component: {fileID: 1459855526434909890}
-  - component: {fileID: 9079980012342338353}
   m_Layer: 0
   m_Name: SuperMarket_Door
   m_TagString: Untagged
@@ -35,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 7420433119332379242}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5906055776173758684
 SpriteRenderer:
@@ -78,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2079164044, guid: fbf82b0aa6cfc0d4d9cc7ec4ff673d89, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,7 +85,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &2530624435863080968
@@ -144,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 219978704976040562}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af9b351c2c41a8d4a8c9022bff61c8d2, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,20 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d5b7fb562d18f488424cfc1261eac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 6804466983750803100}
---- !u!114 &9079980012342338353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219978704976040562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce6ffc2b2aee1794b8db55dcc949333b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
+  animator: {fileID: 0}
 --- !u!1 &7574066601461948940
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,4 +257,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54bae6afab041c2488cbb182e850dea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorObject: {fileID: 219978704976040562}
+  DoorObject: {fileID: 0}
