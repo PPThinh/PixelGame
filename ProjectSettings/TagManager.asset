@@ -4,16 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Lamp_Light
+  - Car
+  - Tree
+  - NPC
+  - Building
+  - Chair
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Street
   - Water
   - UI
-  - 
-  - 
+  - NPC
+  - Vehicle
   - 
   - 
   - 
