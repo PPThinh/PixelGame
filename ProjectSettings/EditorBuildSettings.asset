@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9e1735e0bed95b042a99ca527d74a9b5
   - enabled: 1
-    path: Assets/Scenes/JapaneseRoom.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/City.unity
     guid: dda1affb197fd8b4195badbafc471217
+  - enabled: 1
+    path: Assets/Scenes/Test Rule Tile.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Classes.unity
     guid: 7b953676620695645891ac3e3a0718d3

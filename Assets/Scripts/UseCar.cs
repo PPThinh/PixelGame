@@ -12,7 +12,6 @@ public class UseCar : MonoBehaviour
     public GameObject carCam;
 
     public Transform outCar;
-    bool canDrive = false;
     bool isDriving = false;
     private BoxCollider2D boxCollider2D;
 
@@ -28,7 +27,7 @@ public class UseCar : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && canDrive)
+        if (Input.GetKeyDown(KeyCode.F))
         {
             CarController.enabled = true;
             Player.transform.SetParent(Car);
@@ -61,7 +60,6 @@ public class UseCar : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("is near");
-            canDrive = true;
         }
     }
 
@@ -70,8 +68,6 @@ public class UseCar : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("is not near");
-
-            canDrive = false;
             //driveUI.gameObject.SetActive(false);
         }
     }

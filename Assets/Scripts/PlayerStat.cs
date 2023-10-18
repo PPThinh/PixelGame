@@ -19,16 +19,5 @@ public class PlayerStat : ScriptableObject
              nameTMP.text = pLayerName;
         }
     }
-
-    //public int diamond
-    //{
-    //    get {
-    //        diamond
-    //    };
-    //    set
-    //    {
-
-    //    }
-    //}
     
 }

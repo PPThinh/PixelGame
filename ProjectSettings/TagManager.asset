@@ -55,3 +55,6 @@ TagManager:
   - name: Building
     uniqueID: 925568665
     locked: 0
+  - name: Dialogue
+    uniqueID: 1178443867
+    locked: 0
